@@ -38,5 +38,16 @@ An input tag ```<input>``` is used when you want the user insert text in a field
 - name --> A name for this input specifically. This attribute is quite important bearing in mind could be a lot of tag input in a single form.
 ### datalist w/ option
 The tag ```<datalist>```is used to make a selectable list in a form. Datalist is filled with options, that options are named with the tag ```<option>```
+Use datalist instead of select is the best option because in Select you only can select one option of the list but in datalist you have the posibility to write and search above the options.
+But if you want to use the datalist you need to make an input field to connect with. In the next lines displays an example of how do it.
+```<input name="browser" list="browsers" placeholder="browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Opera">
+                <option value="Edge">
+            </datalist>
+```
 
 
