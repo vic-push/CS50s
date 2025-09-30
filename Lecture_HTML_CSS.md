@@ -18,4 +18,12 @@ The images tag does not have ending tag. Besides the attributes mentionated abov
 In adittion, the src of the image could be an url where the image is.
 
 ### Link
-```<a href> ```
+```<a href> ``` is the tag used to link a url to a word that will be writting inside of the open and closed a tag. Instead of external url, with this tag you can link yours owns html pages just writting.
+
+### Tables
+To create a table we need to start by using the <table></table> tag that represents the entirety of the table. Inside the table, we have some different parts: heading, body...
+- The tag <thead></thead> is used to build the heading of the table
+  - The tag <th> is inside of <thead> and used to create each "column" of the table heading.
+- The tag <tbody> contains the main information of the table.
+- Inside the <tbody> we have one tag <tr> for each row who is going to contains the information of each cell thanks to the tag <td></td>
+
