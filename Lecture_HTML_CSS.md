@@ -5,8 +5,8 @@ The course starts with HTML and CSS, after that we are going to introduce Git to
 Basically the DOM is just a way to organize tags so that some are inside others.
 
 ## List
-HTML has two types of list, ordered list (<ol></ol>) and unordered list (<ul></ul>). 
-To use the ordered or unordered list you can set the items of the list with the tag <li></li>
+HTML has two types of list, ordered list (```<ol></ol>```) and unordered list (```<ul></ul>```). 
+To use the ordered or unordered list you can set the items of the list with the tag ```<li></li>```
 
 ## Media 
 ### Images
