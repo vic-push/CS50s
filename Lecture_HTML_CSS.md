@@ -27,3 +27,16 @@ To create a table we need to start by using the <table></table> tag that represe
 - The tag <tbody> contains the main information of the table.
 - Inside the <tbody> we have one tag <tr> for each row who is going to contains the information of each cell thanks to the tag <td></td>
 
+## Form
+To start with a form you need to begin with a form element (tag) ```<form></form>
+Inside these tags you should add each field of the form with the correct tag.
+Some of them are:
+### input tag
+An input tag ```<input>``` is used when you want the user insert text in a field. This tag has some important attributes:
+- type (text, number, submit...)
+- placeholder --> the words or sentence written in the field
+- name --> A name for this input specifically. This attribute is quite important bearing in mind could be a lot of tag input in a single form.
+### datalist w/ option
+The tag ```<datalist>```is used to make a selectable list in a form. Datalist is filled with options, that options are named with the tag ```<option>```
+
+
