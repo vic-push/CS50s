@@ -51,4 +51,13 @@ But if you want to use the datalist you need to make an input field to connect w
     </datalist>
 ```
 
+There is a lot of more tags in HTML but they work in a similar way. They have tag and atributtes. 
+
+## CSS
+He starts with a basic way to add css to html, including style inside each tag. 
+For example, to chage the style of `<h1>` we can do this:
+`<h1 style="color: blue; text-align: center;"`
+We can styles HTML element from a parent tag. For example if we write the style atributtes in the `body` tag instead of the `h1` tag they will apply to the hole section.
+
+
 
