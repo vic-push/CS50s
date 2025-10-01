@@ -80,7 +80,10 @@ To link the css page to the HTML page we use `<link rel="stylesheet" href="style
 - height --> to chage the height (alto) of a div for example. Normally in pixel measure
 - padding --> to create padding (espacio) inside the element. For example, if we have a div with text inside, this style attribute will separe the text from the border of the div. Normally in pixel measure
 - margin --> to create space outside of the element. For example, if we have a div, this style attribute will add a space between the border of the browser page and the div element.
-- 
+- font-family --> to chang the font of the text. We can specify multiple fonts just in case some devices can not support the font. Is important to add some backup font just in case.
+- font-size --> this attribute is used to specify the size of the text. Normally is written in pixel. For example `font-size: 28px;`
+- font-weight --> this attribute is used, normally, to make the text into a bold way.
+
 
 
 
