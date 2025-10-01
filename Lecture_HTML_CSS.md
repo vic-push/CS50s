@@ -70,6 +70,9 @@ We have some more options to add style to our HTML page. One of them is adding a
   </style>
 </head>
 
+The other option -and in my opinio the best- is to create a new file (.css) where all we do all the style and link it with the HTML page.
+To link the css page to the html page we use `<link rel="stylesheet" href="styles.css">`
+
 
 
 
