@@ -83,7 +83,8 @@ To link the css page to the HTML page we use `<link rel="stylesheet" href="style
 - font-family --> to chang the font of the text. We can specify multiple fonts just in case some devices can not support the font. Is important to add some backup font just in case.
 - font-size --> this attribute is used to specify the size of the text. Normally is written in pixel. For example `font-size: 28px;`
 - font-weight --> this attribute is used, normally, to make the text into a bold way.
-- border --> this attribute is used to make a border around section. The most used way is in div section. Inside this attribute you can specify differents settings of the border, for example, solid if you want to have a continuous line, 3px for the width or black for the color 
+- border --> this attribute is used to make a border around section. The most used way is in div section. Inside this attribute you can specify differents settings of the border, for example, solid if you want to have a continuous line, 3px for the width or black for the color.
+- border-collapse:collapse --> this attribute is used to collapse the border of the cells and the table. 
 
 
 
