@@ -51,14 +51,14 @@ But if you want to use the datalist you need to make an input field to connect w
     </datalist>
 ```
 
-There is a lot of more tags in HTML but they work in a similar way. They have tag and atributtes. 
+There are many more tags in HTML but they work in a similar way. Each tag can have attributes. 
 
 ## CSS
 He starts with a basic way to add css to html, including style inside each tag. 
-For example, to chage the style of `<h1>` we can do this:
+For example, to change the style of `<h1>` we can do this:
 `<h1 style="color: blue; text-align: center;"`
-We can styles HTML element from a parent tag. For example if we write the style atributtes in the `body` tag instead of the `h1` tag they will apply to the hole section.
-We have some more options to add style to our HTML page. One of them is adding an `style` tag inside the `<head>`. For example:
+We can style HTML elements from a parent tag. For example, if we write the style attributes in the `body` tag instead of the `h1` tag they will apply to the whole section.
+We have some more options to add style to our HTML page. One of them is adding a `<style>` tag inside the `<head>`. For example:
 ```
 <head>
   <title>Hello!</title>
@@ -69,9 +69,19 @@ We have some more options to add style to our HTML page. One of them is adding a
     }
   </style>
 </head>
+```
 
-The other option -and in my opinio the best- is to create a new file (.css) where all we do all the style and link it with the HTML page.
-To link the css page to the html page we use `<link rel="stylesheet" href="styles.css">`
+The other option -and in my opinion the best- is to create a new file (.css) where we put all the style and link it with the HTML page.
+To link the css page to the HTML page we use `<link rel="stylesheet" href="styles.css">`
+
+### Some important attributes in CSS
+- background-color --> used to change color of the background
+- width --> to chage the widht (ancho) of a div for example. Normally in pixel measure
+- height --> to chage the height (alto) of a div for example. Normally in pixel measure
+- padding --> to create padding (espacio) inside the element. For example, if we have a div with text inside, this style attribute will separe the text from the border of the div. Normally in pixel measure
+- margin --> to create space outside of the element. For example, if we have a div, this style attribute will add a space between the border of the browser page and the div element.
+- 
+
 
 
 
