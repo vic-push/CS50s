@@ -58,6 +58,19 @@ He starts with a basic way to add css to html, including style inside each tag.
 For example, to chage the style of `<h1>` we can do this:
 `<h1 style="color: blue; text-align: center;"`
 We can styles HTML element from a parent tag. For example if we write the style atributtes in the `body` tag instead of the `h1` tag they will apply to the hole section.
+We have some more options to add style to our HTML page. One of them is adding an `style` tag inside the `<head>`. For example:
+```
+<head>
+  <title>Hello!</title>
+  <style>
+    h1 {
+        color: blue;
+        text-align: center;
+    }
+  </style>
+</head>
+
+
 
 
 
