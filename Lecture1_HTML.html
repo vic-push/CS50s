@@ -24,6 +24,15 @@
                 border: 1px solid black;
                 padding: 5px; 
             } 
+            #title_two{
+                color:red;
+            }
+            #title_six{
+                color:green;
+            }
+            .list_order{
+                color: orange;
+            }
         </style>
         <title> Hello! </title> <!-- title tag that contains the title of the html page that gonna appears in the browser part -->
     </head>
@@ -32,15 +41,15 @@
             Hello world with the style sheet
         </div>
         <h1 style="color: blue; text-align: center;">This is a heading</h1> <!-- h1 is the largest title we can use in our html file-->
-        <h2>This is a smaller heading</h2>
-        <h6>The smallest heading</h6>
+        <h2 id="title_two">This is a smaller heading</h2>
+        <h6 id="title_six">The smallest heading</h6>
         Hello, World!
 
         An ordered list:
         <ol>
-            <li>First item</li> <!-- li tag is used to define a list item -->
-            <li>Second item</li>
-            <li>Third item</li>
+            <li class="list_order">First item</li> <!-- li tag is used to define a list item -->
+            <li class="list_order">Second item</li>
+            <li class="list_order">Third item</li>
         </ol>
         An unordered list:
         <ul>
