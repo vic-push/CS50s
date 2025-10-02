@@ -86,7 +86,43 @@ To link the css page to the HTML page we use `<link rel="stylesheet" href="style
 - border --> this attribute is used to make a border around section. The most used way is in div section. Inside this attribute you can specify differents settings of the border, for example, solid if you want to have a continuous line, 3px for the width or black for the color.
 - border-collapse:collapse --> this attribute is used to collapse the border of the cells and the table. 
 
+## ID's
+If you want to change the style of some elements that share the same tag you can give an ID to an specific tag. In the next example we can see how this work:
+```
+<style>
+  #title_one {
+    color: blue;
+  }
+  #title_two {
+  color: red;
+  }
+</style>
+<h1 id="title_one"> Heading 1 </h1>
+<h1 id="title_two"> Heading 2 </h1>
+<h1> Heading 3 </h1>
+```
+We can see that the first and second `<h1>`tag have an attribute called id. Thanks to that we can modified through the style sheet those tags using the special character #.
 
+Another similar attribute is the class. The class are used when we want to modify some elements in the same way. We should not use the same id for different tags because it could cause some troubles. For this reason we should use the class. We can modify a class in the style sheet using a dot (.) before name it. For example:
+```
+<style>
+  .baz {
+    color: blue;
+    
+  }
+</style>
+<h1 class="baz"> Heading 1 </h1>
+<h1 class="baz"> Heading 2 </h1>
+<h1> Heading 3 </h1>
+```
+## Theoretical concept of specificity
+We are seeing how many options are possible to change the style of elements of a HTML page thanks to CSS. But this have some difficulties of management and that are the specificity. What changes are goingo to apply if we modify the style with the id, the class and inline. To solve this problem, we can follow the next list of priorities:
+1. inline
+2. id
+3. class
+4. type
+
+At first is confusing but in reality is very useful. For example, imagine we want to have all the `<h1>`with the same font but we want that one particularly has a specific color. We can do a class for all of them and in addition, put an id in the specific `<h1>`. The result will be all `<h1>` with the same style and that different one will have only the little changes we did with the id.
 
 
 
